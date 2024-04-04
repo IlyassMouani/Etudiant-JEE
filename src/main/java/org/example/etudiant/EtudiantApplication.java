@@ -18,9 +18,8 @@ public class EtudiantApplication implements CommandLineRunner {
         }
         @Override
         public void run(String... args) throws Exception {
-            Student student = new Student(1,"Ilyass","X");
+            Student student = new Student(2,"Ilyass","X");
             studentRepository.save(student);
-
 
         }
 
